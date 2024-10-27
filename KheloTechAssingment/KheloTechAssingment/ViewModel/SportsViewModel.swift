@@ -42,7 +42,7 @@ class SportsListViewModel {
     
     
     private func fetchFromNetwork(completion: @escaping ([Datum]?) -> Void) {
-        guard let url = URL(string: "https://admin.37nationalgamesgoa.in/api/mock/get_all_sport_list") else {
+        guard let url = URL(string: sportsList) else {
             completion(nil)
             return
         }

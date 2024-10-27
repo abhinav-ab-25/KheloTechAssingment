@@ -10,4 +10,4 @@ import Foundation
 
 let baseURL = "https://admin.37nationalgamesgoa.in/api/mock/"
 
-let sportsList = "get_all_sport_list"
+let sportsList = baseURL + "get_all_sport_list"
